@@ -1,0 +1,266 @@
+{
+  "project_info": {
+    "project_number": "420541202884",
+    "firebase_url": "https://aircare-46592.firebaseio.com",
+    "project_id": "aircare-46592",
+    "storage_bucket": "aircare-46592.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420541202884:android:30caea423c94112b",
+        "android_client_info": {
+          "package_name": "cloud.artik.example.hellocloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420541202884-fus7bjcpb3tc6ahkftnavjimo89k6q7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cloud.artik.example.hellocloud",
+            "certificate_hash": "87d73ca250ffc303628c2537957418c189a05905"
+          }
+        },
+        {
+          "client_id": "420541202884-aotes2jsjefncb9ciu2nq7g7iqh9e3n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDges2qLVaBFAExw5xOiTRFtMTufdQ6iA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420541202884-aotes2jsjefncb9ciu2nq7g7iqh9e3n1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "420541202884-ercr96gd7l3jlifctfm2teb8tncrgl6k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "uoc.koreatech.Aircare"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420541202884:android:2dce18fbaa2a37d5",
+        "android_client_info": {
+          "package_name": "com.example.jiwon.uoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420541202884-h99hm3vt64qdea398dh5ubgif7reirrk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jiwon.uoc",
+            "certificate_hash": "0a129918d65df81ca0d81c7a10585a1bc100648e"
+          }
+        },
+        {
+          "client_id": "420541202884-aotes2jsjefncb9ciu2nq7g7iqh9e3n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDges2qLVaBFAExw5xOiTRFtMTufdQ6iA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420541202884-aotes2jsjefncb9ciu2nq7g7iqh9e3n1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "420541202884-ercr96gd7l3jlifctfm2teb8tncrgl6k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "uoc.koreatech.Aircare"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420541202884:android:812e3d2e89272384",
+        "android_client_info": {
+          "package_name": "com.uoc.jiwon.graduationproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420541202884-u2on7umu69sbknqnlrj425jhjbtfpvvf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uoc.jiwon.graduationproject",
+            "certificate_hash": "0a129918d65df81ca0d81c7a10585a1bc100648e"
+          }
+        },
+        {
+          "client_id": "420541202884-aotes2jsjefncb9ciu2nq7g7iqh9e3n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDges2qLVaBFAExw5xOiTRFtMTufdQ6iA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420541202884-aotes2jsjefncb9ciu2nq7g7iqh9e3n1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "420541202884-ercr96gd7l3jlifctfm2teb8tncrgl6k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "uoc.koreatech.Aircare"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420541202884:android:86ef8dc7e69798a7",
+        "android_client_info": {
+          "package_name": "com.uoc.jiwon.ss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420541202884-v03pg6f2p7mpveuo4fre6dgmuf28qpv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uoc.jiwon.ss",
+            "certificate_hash": "0a129918d65df81ca0d81c7a10585a1bc100648e"
+          }
+        },
+        {
+          "client_id": "420541202884-aotes2jsjefncb9ciu2nq7g7iqh9e3n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDges2qLVaBFAExw5xOiTRFtMTufdQ6iA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420541202884-aotes2jsjefncb9ciu2nq7g7iqh9e3n1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "420541202884-ercr96gd7l3jlifctfm2teb8tncrgl6k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "uoc.koreatech.Aircare"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420541202884:android:a5ca49f3062701fd",
+        "android_client_info": {
+          "package_name": "koreatech.uoc.jiwon.aircare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420541202884-unjelt0bl1g5v0shdrj2quvpqc1p9dkt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "koreatech.uoc.jiwon.aircare",
+            "certificate_hash": "87d73ca250ffc303628c2537957418c189a05905"
+          }
+        },
+        {
+          "client_id": "420541202884-aotes2jsjefncb9ciu2nq7g7iqh9e3n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDges2qLVaBFAExw5xOiTRFtMTufdQ6iA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420541202884-aotes2jsjefncb9ciu2nq7g7iqh9e3n1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "420541202884-ercr96gd7l3jlifctfm2teb8tncrgl6k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "uoc.koreatech.Aircare"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

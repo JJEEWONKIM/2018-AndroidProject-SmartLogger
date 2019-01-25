@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uoc.jiwon.ss"
+    android:label="AirCare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/airicons"
+        android:theme="@style/AppTheme" >
+    <activity
+        android:name=".SplashActivity"
+        android:label="@string/app_name"
+        android:theme="@style/SplashTheme">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name=".LoginActivity"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <action android:name="cloud.artik.example.hellocloud.ARTIKCLOUD_AUTHORIZATION_RESPONSE"/>
+        </intent-filter>
+    </activity>
+
+
+
+    <activity
+        android:name=".MypageActivity"
+        android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+    <activity android:name=".MainActivity" android:screenOrientation= "portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+    <activity android:name=".SigninActivity" android:screenOrientation= "portrait" android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+    <activity android:name=".Co2Activity" android:screenOrientation= "portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+    <activity android:name=".TempHumidActivity" android:screenOrientation= "portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+    <activity android:name=".VocActivity" android:screenOrientation= "portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+    <activity android:name=".MicrodustActivity" android:screenOrientation= "portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+    </application>
+</manifest>

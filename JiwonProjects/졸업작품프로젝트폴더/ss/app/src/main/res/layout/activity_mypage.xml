@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainRootLayout"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/root_calling_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dip">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="100dp"
+            android:src="@drawable/smallicon" />
+
+        <ImageView
+            android:id="@+id/returnBtn"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:layout_marginStart="45dp"
+            android:src="@drawable/returncircle" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/myinfoicon"/>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/nameicon"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textColor="#095cae"
+            android:textSize="20dp"
+            />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/idicon"/>
+        <TextView
+            android:id="@+id/id"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="ID"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textColor="#095cae"
+            android:textSize="20dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/pwicon"/>
+            <ImageView
+                android:id="@+id/pwChangeBtn"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:src="@drawable/pwchangeicon"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/pw"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp"
+            android:typeface="sans"
+            android:textColor="#095cae"
+            android:textSize="20dp"
+            />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/phonenumicon"/>
+        <TextView
+            android:id="@+id/phoneNum"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="ID"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textColor="#095cae"
+            android:textSize="20dp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

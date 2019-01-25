@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainRootLayout"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/root_calling_gradient">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            />
+        <ImageView
+            android:id="@+id/dog"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/smallicon" />
+
+
+        <ImageView
+            android:id="@+id/returnBtn"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@+id/dog"
+            android:layout_marginStart="20dp"
+
+            android:src="@drawable/returncircle" />
+    </RelativeLayout>
+
+
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/relativelayout1"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_weight="1"
+           >
+            <ImageView
+                android:id="@+id/infoBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/info"/>
+            <ImageView
+                android:id="@+id/Velocity"
+                android:layout_marginTop="29dp"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@drawable/eachmicrodusticon" />
+
+
+            <TextView
+                android:id="@+id/clean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/Velocity"
+                android:layout_alignRight="@id/Velocity"
+                android:translationY="160dp"
+                android:layout_margin="1dp"
+                android:gravity="center_horizontal"
+
+                android:text="   0  "
+                android:textColor="#ffffff"
+                android:textSize="60dp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+            <ImageView
+                android:id="@+id/cleanWhat"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignLeft="@id/Velocity"
+                android:layout_alignRight="@id/Velocity"
+                android:layout_marginTop="55dp"
+                android:layout_margin="1dp"
+                android:gravity="center_horizontal"
+                android:layout_alignBottom="@+id/Velocity"
+                android:src="@drawable/sleepy"/>
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:id="@+id/recomBest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="존나 에어컨 틀어라!"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            />
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/relativelayout4"
+            android:layout_width="300dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/microdust"
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/microdustvalue" />
+
+
+            <TextView
+                android:id="@+id/microdustValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/microdust"
+                android:layout_alignRight="@id/microdust"
+                android:layout_marginTop="20dp"
+                android:layout_margin="1dp"
+                android:gravity="center_horizontal"
+                android:layout_centerInParent="true"
+
+
+                android:text="          23"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:typeface="sans" />
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/airCleanerBtnMicroDust"
+                android:layout_marginLeft="140dp"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/switchoff"/>
+            <ImageView
+                android:id="@+id/autoBtn"
+                android:src="@drawable/autooff"
+                android:layout_marginLeft="50dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
